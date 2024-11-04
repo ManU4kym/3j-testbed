@@ -7,7 +7,7 @@ import WebGL from 'three/addons/capabilities/WebGL.js';
 
 if ( WebGL.isWebGL2Available() ) {
 
- eval('Continue');
+ window.alert('Continue');
 
 } else {
 
